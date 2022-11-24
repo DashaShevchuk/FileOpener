@@ -1,0 +1,195 @@
+﻿<Window x:Class="WpfApp1.HomePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        x:Name="mainWindow"
+        Title="HomePage" Height="800" Width="1500" WindowStartupLocation="CenterScreen" Icon="icon.ico">
+    <Grid x:Name="mainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="firstColumn" Width="29*"/>
+            <ColumnDefinition Width="170*"/>
+        </Grid.ColumnDefinitions>
+        <Border CornerRadius="10 0 0 10" Grid.ColumnSpan="2" Margin="0,0,-0.4,0.4">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#9BCAE9" Offset="0"/>
+                    <GradientStop Color="#70BCEE" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <Canvas Grid.ColumnSpan="2" Margin="0,0,-0.4,0.4">
+            <Polygon Points="0,20 230,140 0,270" Fill="#65A7D2" />
+            <Polygon Points="1000,100 1200,570 800,350" Fill="#65A7D2" />
+            <Polygon Points="0,500 230,600 0,750" Fill="#65A7D2" />
+            <Polygon Points="730,250 420,400 340,160" Fill="#65A7D2" />
+            <Polygon Points="730,600 420,550 340,760" Fill="#65A7D2" />
+            <Polygon Points="100,380 200,290 260,380" Fill="#65A7D2" Width="539" />
+            <Polygon Points="820,45 700,160 450,130" Fill="#65A7D2" Width="850" />
+            <Polygon Points="620,350 700,550 450,500" Fill="#65A7D2" Width="720" />
+            <Polygon Points="1200,10 1300,150 1500,100" Fill="#65A7D2" Width="1500" />
+            <Polygon Points="1200,600 1400,700 1400,500" Fill="#65A7D2" Width="1500" />
+            <Polygon Points="950,450 1100,700 750,600" Fill="#65A7D2" Width="1800" />
+            <Ellipse Margin="50 400 0 0" Width="20" Height="20" Fill="#65A7D2" />
+            <Ellipse Margin="210 700 0 0" Width="20" Height="20" Fill="#65A7D2" />
+            <Ellipse Margin="900 750 0 0" Width="20" Height="20" Fill="#65A7D2" />
+            <Ellipse Margin="210 250 0 0" Width="20" Height="20" Fill="#65A7D2" />
+            <Ellipse Margin="700 50 0 0" Width="20" Height="20" Fill="#65A7D2" />
+            <Ellipse Margin="700 300 0 0" Width="20" Height="20" Fill="#65A7D2" />
+            <Ellipse Margin="1150 300 0 0" Width="20" Height="20" Fill="#65A7D2" />
+            <Ellipse Margin="630 180 0 0" Width="20" Height="20" Fill="#65A7D2" />
+            <Ellipse Margin="630 550 0 0" Width="20" Height="20" Fill="#65A7D2" />
+            <Ellipse Margin="240 520 0 0" Width="40" Height="40" Fill="#65A7D2" />
+            <Ellipse Margin="1200 200 0 0" Width="40" Height="40" Fill="#65A7D2" />
+            <Ellipse Margin="240 20 0 0" Width="40" Height="40" Fill="#65A7D2" />
+            <Ellipse Margin="700 400 0 0" Width="40" Height="40" Fill="#65A7D2" />
+            <Ellipse Margin="1400 300 0 0" Width="40" Height="40" Fill="#65A7D2" />
+            <Ellipse Margin="700 700 0 0" Width="40" Height="40" Fill="#65A7D2" />
+            <Ellipse Margin="300 350 0 0" Width="40" Height="40" Fill="#65A7D2" />
+            <Ellipse Margin="1300 400 0 0" Width="40" Height="40" Fill="#65A7D2" />
+        </Canvas>
+        <StackPanel x:Name="navManu"
+                    Background="#73B3D8"
+                    Height="50"
+                    Width="1250"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Top"
+                    Margin="32,0,0,0"
+                    Opacity="0.9" Grid.Column="1">
+
+            <TextBlock Text="Масштаб" FontSize="20" Margin="0,10,5,0" Style="{StaticResource NormalText}" FontStretch="UltraExpanded" />
+            <Grid Width="200">
+                <Button x:Name="minusScale" IsEnabled="False" HorizontalAlignment="Left" Margin="0,0,0,20" Height="30" Width="20" FontSize="30" Background="Transparent" Style="{StaticResource CircleButton}" Click="minusScale_Click">-</Button>
+                <Slider x:Name="scale" IsEnabled="False" HorizontalAlignment="Right" Margin="0,15,20,-0.4" ValueChanged="scale_ValueChanged" Width="150" Maximum="200"/>
+                <Button x:Name="plusScale" IsEnabled="False" HorizontalAlignment="Right" Margin="0,0,0,15" Width="20" Height="30" FontSize="30" Background="Transparent" Style="{StaticResource CircleButton}" Click="plusScale_Click">+</Button>
+            </Grid>
+
+            <!--<TextBlock Text="Пошук" FontSize="20" Margin="20,10,5,0" Style="{StaticResource NormalText}" />
+            <TextBox x:Name="searchTb" Width="200" Height="25" FontFamily="Fonts/#Roboto Light" Background="Transparent" FontSize="15" Foreground="White" BorderBrush="White" Margin="0,2,0,0"/>
+            <Button x:Name="searchBtn" Background="Transparent" Width="30" Height="30" BorderBrush="Transparent" Margin="5,0,0,0" Click="searchBtn_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Assets/search.png" Width="30" Height="30"/>
+                </StackPanel>
+            </Button>-->
+        </StackPanel>
+        <StackPanel x:Name="sideManu"
+                    Background="#73B3D8"
+                    Width="250"
+                    Orientation="Vertical"
+                    HorizontalAlignment="Left"
+                    Opacity="0.9"
+                    Grid.ColumnSpan="2">
+            <Menu x:Name="manu"
+                  Height="630"
+                  Background="Transparent"
+                  Margin="0, 45, 0, 0">
+                <Menu.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </Menu.ItemsPanel>
+            </Menu>
+            <Button x:Name="closeFile" IsEnabled="False" VerticalAlignment="Bottom" Content="Закрити файл" Width="170" Height="50" FontSize="15" Style="{StaticResource mainButton}" Click="closeFile_Click"/>
+        </StackPanel>
+        <Grid x:Name="main" Width="1200" Height="720" Margin="30,50,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="White" Grid.Column="1">
+            <!--<RichTextBox x:Name="rtb" Height="750" Visibility="Hidden" VerticalAlignment="Top" VerticalScrollBarVisibility="Visible" Focusable="False" IsReadOnly="True">
+                <RichTextBox.LayoutTransform>
+                    <ScaleTransform x:Name="rtbScaleTransform" ScaleX="1" ScaleY="1"/>
+                </RichTextBox.LayoutTransform>
+            </RichTextBox>-->
+            <DocumentViewer Width="1200" Height="700" x:Name="docViewer" Visibility="Hidden">
+                <DocumentViewer.Resources>
+                    <Style TargetType="ContentControl">
+                        <Setter Property="Visibility" Value="Collapsed" />
+                    </Style>
+
+                    <Style TargetType="ToolBar">
+                        <Setter Property="Visibility" Value="Collapsed" />
+                    </Style>
+                </DocumentViewer.Resources>
+            </DocumentViewer>
+            <StackPanel x:Name="videoPlayer" Visibility="Hidden">
+                <MediaElement x:Name="player" Width="1200" Height="600" MediaOpened="player_MediaOpened"/>
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Button x:Name="play" Height="50" Width="200" Margin="10,0,10,0" Click="play_Click" Background="Transparent" BorderBrush="Transparent">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontFamily="Fonts/#Roboto Light" FontSize="20" Margin="0,0,10,0">Відтворити</TextBlock>
+                                <Image Source="Assets/play.png" Width="30" Height="30"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="pause" Height="50" Width="150" Margin="10,0,10,0" Click="pause_Click" Background="Transparent" BorderBrush="Transparent">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontFamily="Fonts/#Roboto Light" FontSize="20" Margin="0,0,10,0">Пауза</TextBlock>
+                                <Image Source="Assets/pause.png" Width="30" Height="30"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="restart" Height="50" Width="150" Margin="10,0,10,0" Click="restart_Click"  Background="Transparent" BorderBrush="Transparent">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontFamily="Fonts/#Roboto Light" FontSize="20" Margin="0,0,10,0">Спочатку</TextBlock>
+                                <Image Source="Assets/restart.png" Width="30" Height="30"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Width="150" Margin="400,0,0,0">
+                        <Button x:Name="plusVolume" Width="20" Height="30" FontSize="30" Margin="0,0,0,15" Background="Transparent" Style="{StaticResource CircleButton}" HorizontalAlignment="Left" Foreground="Black" Click="plusVolume_Click">-</Button>
+                        <Slider x:Name="volume" Width="100" Margin="0,15,0,0" HorizontalAlignment="Right" LargeChange="0.1" Maximum="1" SmallChange="0.01" Value="1" ValueChanged="volume_ValueChanged"/>
+                        <Button x:Name="minusVolume" Width="20" Height="30" FontSize="30" Margin="0,0,0,15" Background="Transparent" Style="{StaticResource CircleButton}" HorizontalAlignment="Right" Foreground="Black" Click="minusVolume_Click">+</Button>
+                    </StackPanel>
+                </StackPanel>
+                <Slider x:Name="video" Width="1200" Margin="0,20,0,0" ValueChanged="video_ValueChanged"/>
+            </StackPanel>
+        </Grid>
+        <!--<StackPanel x:Name="editPanel"
+              VerticalAlignment="Center"
+              HorizontalAlignment="Right"
+              Width="220"
+              Height="717"
+              Background="#73B3D8"
+              Opacity="0.9"
+              Visibility="Hidden"
+              Orientation="Vertical"
+              Margin="0,49,34,0"
+              Grid.Column="1">
+            <TextBlock Text="Шрифт" HorizontalAlignment="Left" FontSize="20" Style="{StaticResource NormalText}"/>
+            <ComboBox x:Name="font" Width="170" IsEditable="True" VerticalAlignment="Top" Foreground="Black" Margin="0,10,0,0" Height="30" FontSize="20" ItemsSource="{Binding Source={x:Static Fonts.SystemFontFamilies}}" SelectionChanged="font_SelectionChanged" >
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" FontFamily="{Binding}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <TextBlock Text="Стиль" HorizontalAlignment="Left" FontSize="20" Style="{StaticResource NormalText}"/>
+            <ComboBox x:Name="style" Width="170" IsEditable="True" VerticalAlignment="Top" Foreground="Black" Margin="0,10,0,0" Height="30" FontSize="20" SelectionChanged="style_SelectionChanged">
+                <ComboBoxItem FontStyle="Normal">Без стилю</ComboBoxItem>
+                <ComboBoxItem FontStyle="Italic">Курсив</ComboBoxItem>
+                <ComboBoxItem FontWeight="Bold">Жирний</ComboBoxItem>
+                <ComboBoxItem>Підкреслений</ComboBoxItem>
+            </ComboBox>
+            <TextBlock Text="Розмір" HorizontalAlignment="Left" FontSize="20" Style="{StaticResource NormalText}"/>
+            <ComboBox x:Name="size" Width="170" IsEditable="True" VerticalAlignment="Top" Foreground="Black" Margin="0,10,0,0" Height="30" FontFamily="Fonts/#Roboto Light" FontSize="20" SelectionChanged="size_SelectionChanged">
+                <ComboBoxItem>8</ComboBoxItem>
+                <ComboBoxItem>9</ComboBoxItem>
+                <ComboBoxItem>10</ComboBoxItem>
+                <ComboBoxItem>11</ComboBoxItem>
+                <ComboBoxItem>12</ComboBoxItem>
+                <ComboBoxItem>14</ComboBoxItem>
+                <ComboBoxItem>16</ComboBoxItem>
+                <ComboBoxItem>18</ComboBoxItem>
+                <ComboBoxItem>20</ComboBoxItem>
+                <ComboBoxItem>22</ComboBoxItem>
+                <ComboBoxItem>24</ComboBoxItem>
+                <ComboBoxItem>26</ComboBoxItem>
+                <ComboBoxItem>28</ComboBoxItem>
+                <ComboBoxItem>36</ComboBoxItem>
+                <ComboBoxItem>48</ComboBoxItem>
+                <ComboBoxItem>72</ComboBoxItem>
+            </ComboBox>
+            <TextBlock Text="Колір тексту" HorizontalAlignment="Left" FontSize="20" Style="{StaticResource NormalText}"/>
+            <Button x:Name="color" Background="Transparent" BorderBrush="White" Width="170" Height="50" Click="color_Click"/>
+            <Button x:Name="edit" Content="Зберегти" Width="170" Height="60" Style="{StaticResource mainButton}" Click="edit_Click"/>
+        </StackPanel>-->
+    </Grid>
+</Window>

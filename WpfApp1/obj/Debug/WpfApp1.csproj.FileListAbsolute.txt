@@ -1,0 +1,64 @@
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\HomePage.g.cs
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\HomePage.baml
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\Templates.baml
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\bin\Debug\BouncyCastle.Crypto.dll
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\bin\Debug\Pkcs11Interop.dll
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\bin\Debug\Pkcs11Interop.xml
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Коледж\4 курс\курсова\вища математика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.ResolveComReference.cache
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.ResolveComReference.cache
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\HomePage.g.cs
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\HomePage.baml
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\Templates.baml
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Коледж\4 курс\курсова\вища математика 2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.ResolveComReference.cache
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\HomePage.g.cs
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\HomePage.baml
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\Templates.baml
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Коледж\4 курс\курсова\вища математика 3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
